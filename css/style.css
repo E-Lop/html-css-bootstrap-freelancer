@@ -1,5 +1,10 @@
 /*** COMMON ***/
 
+img {
+  width: 100%;
+  display: block;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -31,4 +36,28 @@ header a {
   text-decoration: none;
   font-size: 1.2rem;
   line-height: 80px;
+}
+
+/*** MAIN ***/
+.ms_jumbotron {
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+}
+.ms_jumbo_container {
+  padding: 20px;
+}
+.ms_jumbo_container img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* sezione portfolio */
+.portfolio {
+  text-align: center;
+}
+.bg_blue {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
 }
