@@ -11,6 +11,33 @@ ul {
   padding: 0;
 }
 
+.stellina {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+.stellina i {
+  margin: 0 10px;
+}
+.stellina:before,
+.stellina:after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+.portfolio .stellina:before,
+.portfolio .stellina:after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /*** HEADER ***/
 header {
   display: flex;
@@ -65,6 +92,7 @@ section:nth-child(odd) {
 .ms_container_small {
   width: 60%;
   margin: 0 auto;
+  max-width: 1170px;
 }
 
 /*** FOOTER ***/
@@ -78,4 +106,32 @@ footer {
 }
 .footer-bottom {
   background-color: #2c3e50;
+}
+
+/********** regole responsive **********/
+@media screen and (min-width: 768px) {
+  .stellina i {
+    margin: 0 15px;
+  }
+  .stellina:before,
+  .stellina:after {
+    width: 80px;
+  }
+  .portfolio .stellina:before,
+  .portfolio .stellina:after {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .stellina i {
+    margin: 0 20px;
+  }
+  .stellina:before,
+  .stellina:after {
+    width: 100px;
+  }
+  .portfolio .stellina:before,
+  .portfolio .stellina:after {
+    width: 100px;
+  }
 }
