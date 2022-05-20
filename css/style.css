@@ -30,7 +30,9 @@ ul {
   vertical-align: middle;
 }
 .portfolio .stellina:before,
-.portfolio .stellina:after {
+.portfolio .stellina:after,
+.contact_me .stellina:before,
+.contact_me .stellina:after {
   content: '';
   width: 50px;
   height: 3px;
@@ -107,6 +109,18 @@ section:nth-child(odd) {
 }
 .ms_button_positioning {
   padding-top: 20px;
+}
+
+/* sezione contatti */
+
+/* stili dei form */
+input.form-control,
+textarea.form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
 }
 
 /*** FOOTER ***/
