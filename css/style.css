@@ -99,6 +99,16 @@ section:nth-child(odd) {
   max-width: 1170px;
 }
 
+/* bottone download */
+.btn-success {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: white;
+}
+.ms_button_positioning {
+  padding-top: 20px;
+}
+
 /*** FOOTER ***/
 footer {
   color: #fcfcfc;
