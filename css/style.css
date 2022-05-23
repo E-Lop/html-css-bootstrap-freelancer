@@ -186,7 +186,9 @@ footer a i {
     width: 100px;
   }
   .portfolio .stellina:before,
-  .portfolio .stellina:after {
+  .portfolio .stellina:after,
+  .contact_me .stellina:before,
+  .contact_me .stellina:after {
     width: 100px;
   }
 }
